@@ -54,12 +54,12 @@ let updateCurrentWeather = (data) => {
     wind.textContent = windDirection + ', ' + data.wind.speed;
 
     maxTemp.textContent = data.main.temp_max > 0 ? 
-                    '+' + Math.round(data.main.temp) : 
-                    Math.round(data.main.temp);
+                    '+' + Math.round(data.main.temp_max) : 
+                    Math.round(data.main.temp_max);
                     
     minTemp.textContent = data.main.temp_min > 0 ? 
-                    '+' + Math.round(data.main.temp) : 
-                    Math.round(data.main.temp);
+                    '+' + Math.round(data.main.temp_min) : 
+                    Math.round(data.main.temp_min);
     
 }
 
