@@ -32,9 +32,9 @@ ex. (https://www.linkedin.com/in/mkhaque/)
 
 * 0.2
     * Various bug fixes and optimizations
-    * designing various sections
+    * designing various sections 2.0
 * 0.1
-    * version 2.0
+    * initial realese
 
 ## License
 
