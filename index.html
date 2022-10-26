@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <!--css links-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/51b7a6e7c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--main section-->
+    <section>
+        <div class="bg">
+            <div class="container">
+                <div class="row">
+                    <!--left content-->
+                    <div class="col-lg-4 p-0">
+                        <div class="left_item">
+                            <h1 data-aos="fade-up">search by city</h1> 
+                            <input data-aos="fade-right" data-aos-duration="800"  class="form-control weather_search" type="text" placeholder="Enter your city" >
+                            <div class="image">
+                                <img data-aos="fade-right" data-aos-duration="900"  class="img-fluid weather_img" src="./images/cloud-icon-png-transparent-11.jpeg" alt="weather-app">
+                            </div>
+                            <div class="icon">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="https://github.com/mkhaque1" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/mkhaque/"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a target="_blank"href="https://www.instagram.com/haque.mk/"><i class="fa-brands fa-square-instagram"></i></a></li>
+                                </ul>
+                                <div class="cityname">
+                                    <a style="--clr:#00FFFF
+                                    " href="#"><span class="weather_city">City name</span><i></i></a>
+                                    <h2 data-aos="fade-up"data-aos-duration='1200'class="weekday">Weekday</h2>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                   
+                    <!--right content-->
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="right_item">
+                            <h1 data-aos="fade-left">Weather</h1>
+                            <!--display text-->
+                            <ul class="list-group ">
+                                <li data-aos="fade-left" data-aos-duration='800'class="list-group-item list-group-item-secondary weather_temp"><span class="value">50</span>&#8451;
+                                </li>
+                                <li data-aos="fade-left" data-aos-duration='700' class="list-group-item list-group-item-light humidity"> <span class="value">Humidity</span> %</li>
+                                <li data-aos="fade-left" data-aos-duration='1200'class="list-group-item list-group-item-warning wind-speed"><span class="value">Wind</span> m/s</li>
+                                <li data-aos="fade-left" data-aos-duration='1100'class="list-group-item list-group-item-info pressure"> <span class="value">Pressure</span> hPa</li>
+                                <li data-aos="fade-left" data-aos-duration='1250' class="list-group-item list-group-item-warning maxtemp"><span class="value">Max-temp</span> &#8451;</li>
+                                <li data-aos="fade-up" data-aos-duration='1700' class="list-group-item list-group-item-dark mintemp"><span class="value">Min-temp</span> &#8451;</li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1500,
+    });
+  </script>
+</body>
+</html>
