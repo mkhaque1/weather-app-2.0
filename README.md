@@ -10,7 +10,7 @@ full responsive link: (https://mkhaque1.github.io/weather-app-2.0/)
 
 * All screen supported
 * Tab/mobile friendly
-* backend-python
+* open weather api useed
 
 ## Help
 
