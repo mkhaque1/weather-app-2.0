@@ -2,7 +2,7 @@
 Weather_app design 
 ## Description
 
-full responsive link: (https://mkhaque1.github.io/weather-app-design/)
+full responsive link: (https://mkhaque1.github.io/weather-app-2.0/)
 
 ## Getting Started
 
